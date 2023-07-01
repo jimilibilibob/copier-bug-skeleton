@@ -21,5 +21,5 @@ git commit -m "feat: Copy copier skeleton v1.0.2a1"
 ```
 
 ```
-copier -f -r v1.0.2a3 update .
+copier -f -r v1.0.2a4 update .
 ```

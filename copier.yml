@@ -1,0 +1,12 @@
+# Configuration
+# ----------------------
+_envops:
+  lstrip_blocks: true
+  trim_blocks: true
+  keep_trailing_newline: true
+
+# Questions
+# ----------------------
+project_name:
+  type: str
+  help: What is the project name?

@@ -5,7 +5,7 @@ Create copier template to reproducde bug from issue [Created new file after copi
 
 To test, run command (into a specific folder):
 ```
-copier -r v1.0.0 copy https://github.com/jimilibilibob/copier-bug-skeleton.git
+copier -r v1.0.2a1 copy https://github.com/jimilibilibob/copier-bug-skeleton.git .
 ```
 
 ```
@@ -17,5 +17,9 @@ git add .
 ```
 
 ```
-git commit -m "feat: Copy copier skeleton v1.0.0"
+git commit -m "feat: Copy copier skeleton v1.0.2a1"
+```
+
+```
+copier -f -r v1.0.2a3 update .
 ```
